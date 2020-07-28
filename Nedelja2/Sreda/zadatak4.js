@@ -23,9 +23,11 @@ n = 0
 //     }
 // }
 
+let brojac = 1000
 
-for(n; n <=1000; n++){
+for(n = 1; brojac > 0; n++){
     if(n % 5 === 0){
         console.log(n)
+        brojac--
     }
 }

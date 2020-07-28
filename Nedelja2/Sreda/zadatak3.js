@@ -1,5 +1,5 @@
 x = 0
-if (x != 0){
+if (x > 0){
     if(x % 3 == 0){
         console.log("Broj je deljiv sa 3")
     }
