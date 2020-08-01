@@ -21,7 +21,7 @@
 function maksimum(x,y,z){
     let max = []
     max.push(x,y,z)
-    let rezultat = 0    
+    let rezultat = -Infinity
     for(i = 0; i < max.length; i++){
         if(x == y && x == z && z == y){
             return "Brojevi su jednaki"
@@ -36,4 +36,4 @@ return `Najveci broj je ${rezultat}`
 }
 
 
-console.log(maksimum(56,89,56))
+console.log(maksimum(-56,-89,-36))
